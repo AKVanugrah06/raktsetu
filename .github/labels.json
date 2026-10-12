@@ -1,0 +1,101 @@
+[
+  {
+    "name": "level: beginner",
+    "color": "c5f0c5",
+    "description": "Good for newcomers — minimal codebase context needed"
+  },
+  {
+    "name": "level: intermediate",
+    "color": "ffe8a3",
+    "description": "Needs some familiarity with the codebase"
+  },
+  {
+    "name": "level: advanced",
+    "color": "f5a3a3",
+    "description": "Needs design judgment or touches multiple systems"
+  },
+
+  {
+    "name": "domain: frontend",
+    "color": "bfdbfe",
+    "description": "UI pages, components, client-side logic"
+  },
+  {
+    "name": "domain: backend",
+    "color": "c7b8ea",
+    "description": "Phase 2 API/Supabase work"
+  },
+  {
+    "name": "domain: ui-ux",
+    "color": "fbcfe8",
+    "description": "Design, accessibility, visual polish"
+  },
+  {
+    "name": "domain: docs",
+    "color": "d9d9d9",
+    "description": "README, docs/, or in-app content pages"
+  },
+  {
+    "name": "domain: translation",
+    "color": "a7f3d0",
+    "description": "locales/*.json translations"
+  },
+  {
+    "name": "domain: testing",
+    "color": "fcd34d",
+    "description": "Unit tests, Lighthouse, accessibility testing"
+  },
+  {
+    "name": "domain: devops",
+    "color": "cbd5e1",
+    "description": "CI, GitHub Actions, tooling"
+  },
+
+  {
+    "name": "type: bug",
+    "color": "d73a4a",
+    "description": "Something isn't working"
+  },
+  {
+    "name": "type: feature",
+    "color": "0e8a16",
+    "description": "A new capability"
+  },
+  {
+    "name": "type: enhancement",
+    "color": "a2eeef",
+    "description": "An improvement to something that exists"
+  },
+
+  {
+    "name": "status: assigned",
+    "color": "5319e7",
+    "description": "Someone is actively working on this"
+  },
+  {
+    "name": "status: needs-review",
+    "color": "fbca04",
+    "description": "A PR is open and waiting on review"
+  },
+
+  {
+    "name": "good first issue",
+    "color": "7057ff",
+    "description": "Good for newcomers"
+  },
+  {
+    "name": "help wanted",
+    "color": "008672",
+    "description": "Extra attention is needed"
+  },
+  {
+    "name": "invalid",
+    "color": "e4e669",
+    "description": "This doesn't seem right"
+  },
+  {
+    "name": "duplicate",
+    "color": "cfd3d7",
+    "description": "This issue or pull request already exists"
+  }
+]

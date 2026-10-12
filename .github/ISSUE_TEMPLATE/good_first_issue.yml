@@ -1,0 +1,63 @@
+name: Good first issue (maintainer template)
+description: Used by maintainers to create a well-scoped, beginner-friendly task. Contributors picking up an existing issue don't need this template.
+title: ""
+labels: ["good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep this scoped to a single, well-defined change. Vague issues create the most back-and-forth during the program.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why this task exists and any background a newcomer needs.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: A checklist of what "done" looks like.
+      placeholder: |
+        - [ ] ...
+        - [ ] `npm run lint` and `npm run build` pass
+    validations:
+      required: true
+
+  - type: textarea
+    id: files
+    attributes:
+      label: Files to touch
+      placeholder: "e.g. app/about/page.js, locales/en.json"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      multiple: true
+      options:
+        - frontend
+        - backend
+        - ui-ux
+        - docs
+        - translation
+        - testing
+        - devops
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - beginner
+        - intermediate
+        - advanced
+    validations:
+      required: true

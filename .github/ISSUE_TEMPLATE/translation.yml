@@ -1,0 +1,35 @@
+name: Translation
+description: Add or update a language translation for the UI.
+title: "i18n: add <language> translation"
+labels: ["domain: translation", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        See [CONTRIBUTING.md](../../blob/main/CONTRIBUTING.md#adding-a-translation) for the full steps. One language per issue/PR, please.
+
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: "e.g. Hindi"
+    validations:
+      required: true
+
+  - type: input
+    id: code
+    attributes:
+      label: Language code (file name)
+      placeholder: "e.g. hi — creates locales/hi.json"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I copied locales/en.json and translated every string value.
+          required: false
+        - label: I kept every JSON key and {{placeholder}} token unchanged.
+          required: false

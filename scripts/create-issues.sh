@@ -3,6 +3,17 @@
 # Requires: GitHub CLI (`gh`), authenticated. Run scripts/create-labels.sh first
 # so these labels already exist.
 #
+# IMPORTANT — issue numbering: several issues below reference each other by
+# number (e.g. "Blocked by #1, #2"). Those numbers only come out right if:
+#   1. The repo has ZERO existing issues or PRs when this script runs — GitHub
+#      numbers issues/PRs from a single shared counter starting at 1.
+#   2. This script runs exactly once, top to bottom, in the order the
+#      create_issue calls appear below (issue 1 = Hindi translation,
+#      issue 2 = Kannada translation, ..., issue 25 = a11y testing).
+# If either of those isn't true, the "#N" references will point at the wrong
+# issue — check the actual titles on GitHub and fix the cross-references by
+# hand if needed.
+#
 # Usage: ./scripts/create-issues.sh
 
 set -euo pipefail
@@ -248,10 +259,13 @@ EOF
 )"
 
 create_issue "feat: language switcher" \
-  "domain: frontend,level: intermediate" \
+  "domain: frontend,level: intermediate,status: blocked" \
   "$(cat <<'EOF'
+## Blocked by
+#1, #2 — needs Hindi and Kannada merged so there's more than one locale to actually switch between. Whoever merges #1/#2 should remove the `status: blocked` label from this issue.
+
 ## Context
-`lib/i18n.js` already accepts a `locale` parameter, but nothing in the UI lets a visitor choose one. Pairs well with the Hindi/Kannada translation issues once a non-English locale exists.
+`lib/i18n.js` already accepts a `locale` parameter, but nothing in the UI lets a visitor choose one.
 
 ## Acceptance criteria
 - [ ] A language dropdown in the navbar lists the locales actually present under `/locales`
@@ -298,8 +312,11 @@ EOF
 )"
 
 create_issue "test: unit tests for request/donate form validation" \
-  "domain: testing,domain: frontend,level: intermediate" \
+  "domain: testing,domain: frontend,level: intermediate,status: blocked" \
   "$(cat <<'EOF'
+## Blocked by
+#16 — needs the test runner that issue introduces. Whoever merges #16 should remove the `status: blocked` label from this issue.
+
 ## Context
 `validate(form)` is currently defined inline in both `app/request/page.js` and `app/donate/page.js`. Extract each into a pure, testable function.
 
@@ -452,8 +469,11 @@ EOF
 )"
 
 create_issue "test: full accessibility audit + automated a11y testing" \
-  "domain: testing,domain: ui-ux,level: advanced" \
+  "domain: testing,domain: ui-ux,level: advanced,status: blocked" \
   "$(cat <<'EOF'
+## Blocked by
+#16 — needs the test runner that issue introduces. Whoever merges #16 should remove the `status: blocked` label from this issue.
+
 ## Context
 The earlier accessibility/color-contrast issue fixes individually flagged problems; this issue makes regressions structurally hard to reintroduce.
 

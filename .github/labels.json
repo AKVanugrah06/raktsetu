@@ -77,6 +77,11 @@
     "color": "fbca04",
     "description": "A PR is open and waiting on review"
   },
+  {
+    "name": "status: blocked",
+    "color": "b60205",
+    "description": "Waiting on another issue to merge first — see the issue body for which one"
+  },
 
   {
     "name": "good first issue",

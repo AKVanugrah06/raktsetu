@@ -4,6 +4,10 @@
 
 Legend: **Domain** labels are `domain: *`, **Difficulty** labels are `level: *`. Beginner issues also get `good first issue`.
 
+**Numbering matters.** The `#N` cross-references below (e.g. "Blocked by #1, #2") assume GitHub assigns issue numbers 1–25 in the exact order `scripts/create-issues.sh` creates them, on a repo with **no issues or PRs yet**. If any issue/PR already exists, or the script is run twice, or issues are created out of order, these numbers will point at the wrong thing — check the actual issue titles on GitHub before trusting a `#N` reference, or re-number by hand if needed.
+
+**Blocked issues.** A few issues depend on another one being merged first (see `scripts/create-issues.sh`'s top-of-file note for exactly which). Those get a `status: blocked` label in addition to their normal labels. Whoever merges the blocking issue should remove `status: blocked` from the dependent one(s) so they become claimable.
+
 ---
 
 ## Beginner
@@ -146,8 +150,9 @@ Legend: **Domain** labels are `domain: *`, **Difficulty** labels are `level: *`.
 
 ### 14. Language switcher
 
+- **Blocked by:** #1, #2 — needs at least Hindi and Kannada merged so there's more than one locale to actually switch between
 - **Domain:** frontend · **Difficulty:** intermediate
-- **Context:** `lib/i18n.js` already accepts a `locale` parameter, but nothing in the UI lets a visitor choose one. Pairs well with issues #1/#2 once a non-English locale exists.
+- **Context:** `lib/i18n.js` already accepts a `locale` parameter, but nothing in the UI lets a visitor choose one. Needs issues #1/#2 merged first so there's more than one locale to switch between.
 - **Acceptance criteria:**
   - [ ] A language dropdown in the navbar lists the locales actually present under `/locales`
   - [ ] Selecting a language re-renders visible text in that language
@@ -176,6 +181,7 @@ Legend: **Domain** labels are `domain: *`, **Difficulty** labels are `level: *`.
 
 ### 17. Unit tests for request/donate form validation
 
+- **Blocked by:** #16 — needs the test runner that issue introduces
 - **Domain:** testing, frontend · **Difficulty:** intermediate
 - **Context:** `validate(form)` is currently defined inline in both `app/request/page.js` and `app/donate/page.js`. Extract each into a pure, testable function.
 - **Acceptance criteria:**
@@ -262,6 +268,7 @@ Legend: **Domain** labels are `domain: *`, **Difficulty** labels are `level: *`.
 
 ### 25. Full accessibility audit + automated a11y testing
 
+- **Blocked by:** #16 — needs the test runner that issue introduces
 - **Domain:** testing, ui-ux · **Difficulty:** advanced
 - **Context:** Issue #8 fixes individually flagged problems; this issue makes regressions structurally hard to reintroduce.
 - **Acceptance criteria:**

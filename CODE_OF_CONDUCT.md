@@ -53,7 +53,7 @@ when an individual is officially representing the community in public spaces.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the maintainer responsible for enforcement at
-**raktsetu.conduct@example.com** <!-- TODO: replace with a real contact email before launch -->.
+**kalmadisaisiddi@gmail.com**.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All maintainers are obligated to respect the privacy and security of the

@@ -111,7 +111,7 @@ RaktSetu is a beginner-friendly project built for [Nexus Spring of Code](#), a 4
 | Translation | Add `hi.json`, `kn.json`, ... to `/locales`              |
 | Testing     | Unit tests, Lighthouse checks, manual QA                 |
 
-Start with [docs/STARTER_ISSUES.md](./docs/STARTER_ISSUES.md) (once Task 3 lands) or any issue labelled [`good first issue`](https://github.com/saisiddi/raktsetu/labels/good%20first%20issue). Full process, branch naming and commit conventions are in [CONTRIBUTING.md](./CONTRIBUTING.md).
+Start with [docs/STARTER_ISSUES.md](./docs/STARTER_ISSUES.md) or any issue labelled [`good first issue`](https://github.com/saisiddi/raktsetu/labels/good%20first%20issue). Full process, branch naming and commit conventions are in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Roadmap
 

@@ -60,10 +60,11 @@ Both must pass. Also check the box on the PR template confirming you checked mob
 To respect everyone's review time, these are closed without discussion:
 
 - README-only PRs that just add your name/profile to a contributors list.
-- Whitespace-only, formatting-only, or typo-fix PRs with no linked issue.
+- Whitespace-only or formatting-only PRs with no linked issue.
+- Single-character or trivial edits clearly made just to rack up a PR count.
 - PRs that don't link an issue at all.
 
-If you want to fix a genuine typo or formatting issue, open an issue first describing it so it can be assigned like any other task.
+Genuine typo and docs fixes **are** welcome as a first contribution — they just need to either link an issue (open one first describing what's wrong) or fix multiple real errors in one PR. A single-issue typo fix with no linked issue, or a one-character tweak with nothing else behind it, falls under "trivial" above and gets closed.
 
 ## Adding a translation
 

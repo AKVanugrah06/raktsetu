@@ -100,7 +100,7 @@ docs/           Project docs (privacy, roadmap, architecture, starter issues)
 
 ## How to contribute
 
-RaktSetu is a beginner-friendly project built for [Nexus Spring of Code](#), a 45-day student open-source program, and welcomes contributors from every domain:
+RaktSetu is a beginner-friendly project built for Nexus Spring of Code, a 45-day student open-source program, and welcomes contributors from every domain:
 
 | Domain      | Example tasks                                            |
 | ----------- | -------------------------------------------------------- |

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "demo-bank-1",
+    "name": "Demo Blood Bank 1",
+    "state": "Karnataka",
+    "city": "Bengaluru",
+    "address": "123 Demo Main Road, Bengaluru",
+    "phone": "XXXXXXXXXX",
+    "hours": "9:00 AM - 6:00 PM"
+  },
+  {
+    "id": "demo-bank-2",
+    "name": "Demo Blood Bank 2",
+    "state": "Karnataka",
+    "city": "Mysuru",
+    "address": "45 Demo Cross Street, Mysuru",
+    "phone": "XXXXXXXXXX",
+    "hours": "9:00 AM - 5:00 PM"
+  },
+  {
+    "id": "demo-bank-3",
+    "name": "Demo Blood Bank 3",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "address": "7 Demo Marine Drive, Mumbai",
+    "phone": "XXXXXXXXXX",
+    "hours": "24 hours"
+  },
+  {
+    "id": "demo-bank-4",
+    "name": "Demo Blood Bank 4",
+    "state": "Maharashtra",
+    "city": "Pune",
+    "address": "88 Demo FC Road, Pune",
+    "phone": "XXXXXXXXXX",
+    "hours": "8:00 AM - 8:00 PM"
+  },
+  {
+    "id": "demo-bank-5",
+    "name": "Demo Blood Bank 5",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "address": "12 Demo Connaught Place, New Delhi",
+    "phone": "XXXXXXXXXX",
+    "hours": "24 hours"
+  },
+  {
+    "id": "demo-bank-6",
+    "name": "Demo Blood Bank 6",
+    "state": "Telangana",
+    "city": "Hyderabad",
+    "address": "56 Demo Tank Bund Road, Hyderabad",
+    "phone": "XXXXXXXXXX",
+    "hours": "9:00 AM - 7:00 PM"
+  },
+  {
+    "id": "demo-bank-7",
+    "name": "Demo Blood Bank 7",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "address": "33 Demo Anna Salai, Chennai",
+    "phone": "XXXXXXXXXX",
+    "hours": "9:00 AM - 6:00 PM"
+  },
+  {
+    "id": "demo-bank-8",
+    "name": "Demo Blood Bank 8",
+    "state": "West Bengal",
+    "city": "Kolkata",
+    "address": "21 Demo Park Street, Kolkata",
+    "phone": "XXXXXXXXXX",
+    "hours": "9:00 AM - 6:00 PM"
+  },
+  {
+    "id": "demo-bank-9",
+    "name": "Demo Blood Bank 9",
+    "state": "Gujarat",
+    "city": "Ahmedabad",
+    "address": "9 Demo Ashram Road, Ahmedabad",
+    "phone": "XXXXXXXXXX",
+    "hours": "9:00 AM - 5:00 PM"
+  },
+  {
+    "id": "demo-bank-10",
+    "name": "Demo Blood Bank 10",
+    "state": "Rajasthan",
+    "city": "Jaipur",
+    "address": "15 Demo MI Road, Jaipur",
+    "phone": "XXXXXXXXXX",
+    "hours": "9:00 AM - 6:00 PM"
+  }
+]

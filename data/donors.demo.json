@@ -1,0 +1,74 @@
+[
+  {
+    "id": "demo-donor-1",
+    "firstName": "Demo Donor 1",
+    "bloodGroup": "O+",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "available": true,
+    "lastDonatedOn": "2026-07-01"
+  },
+  {
+    "id": "demo-donor-2",
+    "firstName": "Demo Donor 2",
+    "bloodGroup": "A+",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "available": true,
+    "lastDonatedOn": null
+  },
+  {
+    "id": "demo-donor-3",
+    "firstName": "Demo Donor 3",
+    "bloodGroup": "B+",
+    "city": "Delhi",
+    "state": "Delhi",
+    "available": false,
+    "lastDonatedOn": "2026-09-20"
+  },
+  {
+    "id": "demo-donor-4",
+    "firstName": "Demo Donor 4",
+    "bloodGroup": "O-",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "available": true,
+    "lastDonatedOn": "2026-04-12"
+  },
+  {
+    "id": "demo-donor-5",
+    "firstName": "Demo Donor 5",
+    "bloodGroup": "AB+",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "available": true,
+    "lastDonatedOn": null
+  },
+  {
+    "id": "demo-donor-6",
+    "firstName": "Demo Donor 6",
+    "bloodGroup": "B-",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "available": false,
+    "lastDonatedOn": "2026-09-29"
+  },
+  {
+    "id": "demo-donor-7",
+    "firstName": "Demo Donor 7",
+    "bloodGroup": "A-",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "available": true,
+    "lastDonatedOn": "2026-03-18"
+  },
+  {
+    "id": "demo-donor-8",
+    "firstName": "Demo Donor 8",
+    "bloodGroup": "AB-",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "available": true,
+    "lastDonatedOn": null
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "site": {
+    "name": "RaktSetu",
+    "tagline": "Privacy-first blood donor & recipient connect platform.",
+    "demoBanner": "Demo — under active development. No real data is stored or sent.",
+    "contributeCta": "Contribute on GitHub",
+    "repoUrl": "https://github.com/saisiddi/raktsetu",
+    "license": "MIT Licensed"
+  },
+  "nav": {
+    "home": "Home",
+    "bloodBanks": "Blood Banks",
+    "request": "Request Blood",
+    "donate": "Become a Donor",
+    "donors": "Donors",
+    "about": "About",
+    "privacy": "Privacy"
+  },
+  "home": {
+    "heroTitle": "RaktSetu",
+    "heroTagline": "Privacy-first blood donor & recipient connect platform.",
+    "heroProblem": "Blood availability information in India is scattered across government portals, hospital lists and WhatsApp forwards. In emergencies, families waste precious time, donor phone numbers get exposed publicly, and fake \"urgent blood\" money scams are common.",
+    "features": {
+      "title": "What you can do here",
+      "items": [
+        {
+          "title": "Find Blood Banks",
+          "description": "Search blood banks and donation camps near you, and jump straight to the official e-RaktKosh portal for real-time stock."
+        },
+        {
+          "title": "Post Urgent Request",
+          "description": "Post a verified urgent blood request with hospital details. Requests auto-expire and never ask for money."
+        },
+        {
+          "title": "Become a Donor",
+          "description": "Sign up as an opt-in donor. Your phone number is never shown publicly — contact happens only through masked, in-app chat."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "steps": [
+        "Donors opt in and set their availability — nothing is imported from anywhere else.",
+        "Someone in need posts a verified request with hospital name and city.",
+        "RaktSetu connects them through masked, in-app contact, only after the donor accepts.",
+        "Requests automatically expire after {{hours}} hours to keep information fresh and safe."
+      ]
+    },
+    "privacySection": {
+      "title": "Privacy comes first",
+      "body": "We never scrape or import donor data from social media, WhatsApp, or third-party lists. Every donor on RaktSetu opted in themselves, and can pause their availability at any time."
+    },
+    "antiScam": {
+      "title": "Never pay for blood",
+      "body": "RaktSetu never asks for money to arrange blood. Anyone asking you to pay for blood or for a donor's contact details is attempting a scam — please report it."
+    },
+    "contributeSection": {
+      "title": "Built by students, for everyone",
+      "body": "RaktSetu is an open-source project welcoming contributors from every background — frontend, backend, UI/UX, docs, translation and testing.",
+      "cta": "Contribute on GitHub"
+    }
+  },
+  "bloodBanks": {
+    "title": "Find Blood Banks & Donation Camps",
+    "subtitle": "Demo listings below are for interface preview only. For real-time official blood stock, always check e-RaktKosh.",
+    "eraktkoshCardTitle": "Need live blood stock data?",
+    "eraktkoshCardBody": "RaktSetu links out to the Government of India's official e-RaktKosh portal instead of scraping blood bank stock. It's the authoritative, real-time source.",
+    "eraktkoshCardCta": "Open e-RaktKosh",
+    "filterStateLabel": "Filter by state",
+    "filterCityLabel": "Filter by city",
+    "allStates": "All states",
+    "allCities": "All cities",
+    "noResults": "No demo blood banks match these filters.",
+    "demoBadge": "Demo",
+    "hoursLabel": "Hours"
+  },
+  "request": {
+    "title": "Post an Urgent Blood Request",
+    "subtitle": "Fill in verified details. Your request automatically expires after the time shown below.",
+    "expiryNotice": "Requests auto-expire {{hours}} hours after posting to keep information accurate and safe.",
+    "antiScamWarning": "RaktSetu never asks for money to arrange blood. Never pay anyone claiming to arrange blood for you.",
+    "demoModeNotice": "Demo mode — requests are not sent yet.",
+    "fields": {
+      "bloodGroup": "Patient blood group",
+      "units": "Units required",
+      "hospitalName": "Hospital name",
+      "city": "City",
+      "neededBy": "Needed by",
+      "contactNote": "Contact will happen through RaktSetu's masked, in-app contact — never a public phone number."
+    },
+    "submit": "Post Request",
+    "errors": {
+      "bloodGroup": "Please select a blood group.",
+      "units": "Please enter at least 1 unit.",
+      "hospitalName": "Hospital name is required.",
+      "city": "City is required.",
+      "neededBy": "Please choose a needed-by date in the future."
+    }
+  },
+  "donate": {
+    "title": "Become a Donor",
+    "subtitle": "Opt in to help save lives. You control your availability at all times.",
+    "demoModeNotice": "Demo mode — no data is saved yet.",
+    "availabilityNote": "After you donate, RaktSetu automatically pauses your availability for {{days}} days — the minimum gap between donations — before you can be marked available again.",
+    "fields": {
+      "name": "Name",
+      "bloodGroup": "Blood group",
+      "city": "City",
+      "available": "I am currently available to donate",
+      "consent": "I agree to RaktSetu's Privacy Policy and consent to being listed as an opt-in donor."
+    },
+    "submit": "Sign Up as a Donor",
+    "errors": {
+      "name": "Name is required.",
+      "bloodGroup": "Please select a blood group.",
+      "city": "City is required.",
+      "consent": "You must agree to the Privacy Policy to continue."
+    }
+  },
+  "donors": {
+    "title": "Demo Donors",
+    "subtitle": "Only first name, blood group, city and availability are ever shown. Phone numbers are never public.",
+    "availableBadge": "Available",
+    "unavailableBadge": "Paused",
+    "requestContact": "Request Contact",
+    "demoModeNotice": "Demo mode — contact requests aren't sent yet."
+  },
+  "about": {
+    "title": "About RaktSetu",
+    "mission": "RaktSetu exists to make finding blood in an emergency faster and safer, without exposing anyone's personal information or opening the door to scams.",
+    "maintainerTitle": "Maintainer",
+    "maintainerBody": "RaktSetu is maintained by Sai (github.com/saisiddi) as part of Nexus Spring of Code, a 45-day student open-source program.",
+    "contributeTitle": "Contribute",
+    "contributeBody": "RaktSetu welcomes beginners from every domain — frontend, backend, UI/UX, docs, translation and testing. See CONTRIBUTING.md in the repository to get started."
+  },
+  "privacy": {
+    "title": "Privacy Principles",
+    "intro": "These principles are non-negotiable and guide every feature we build.",
+    "principles": [
+      {
+        "title": "Opt-in donors only",
+        "body": "We never scrape, import or display personal data from social media, WhatsApp, or third-party lists. Every donor chose to be here."
+      },
+      {
+        "title": "No public phone numbers",
+        "body": "Donor phone numbers are never shown publicly. Contact happens via in-app chat or masked contact, only after the donor accepts."
+      },
+      {
+        "title": "Verified, auto-expiring requests",
+        "body": "Requests require a hospital name and city, and automatically expire ({{hours}} hours by default). RaktSetu never asks for money, and shows an anti-scam notice on every request."
+      },
+      {
+        "title": "Official stock data, not scraping",
+        "body": "For real-time blood bank stock, we link to the official e-RaktKosh portal rather than scraping it ourselves."
+      },
+      {
+        "title": "Obviously fake demo data",
+        "body": "All sample data in this repository is clearly labelled \"Demo\" and uses obviously fake values, such as \"Demo Donor 1\" and phone \"XXXXXXXXXX\"."
+      },
+      {
+        "title": "Configurable donation gaps",
+        "body": "Donors can toggle their availability and are automatically paused after donating until the required gap between donations has passed. That gap is configurable, not hardcoded into the interface."
+      }
+    ]
+  },
+  "footer": {
+    "builtFor": "Built for Nexus Spring of Code",
+    "repoLink": "View on GitHub"
+  }
+}

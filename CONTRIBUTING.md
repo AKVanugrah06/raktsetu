@@ -47,13 +47,23 @@ npm run lint
 npm run build
 ```
 
-Both must pass. Also check the box on the PR template confirming you checked mobile layout for UI changes.
+Both must pass with 0 errors before you open the PR.
 
-## Opening the PR
+## Opening a pull request
 
-- **Every PR must link an issue** — use `Closes #123` in the description. PRs without a linked issue will be closed.
-- Fill in the PR template, including screenshots for any UI change.
+- **Fill in every section of the PR template** (`.github/pull_request_template.md`) — Description, Related issues, Type of change, and every checklist item that applies (the UI and Translations sections can be skipped only if they genuinely don't apply to your change). An incomplete template gets sent back before anyone reviews the code.
+- **Every PR must link an assigned issue** — use `Closes #123` in the description. PRs without a linked, assigned issue will be closed.
+- **PR title format:** `<type>: <short description>. Closes #<issue>`, e.g. `feat: add blood group compatibility page. Closes #6`. Use the same `<type>` prefixes as your commits (`feat`, `fix`, `docs`, `i18n`, `test`, `chore`, ...).
+- Write the Description yourself, in your own words. Don't paste an AI tool's generated summary — explain what you changed and why like you'd explain it to a teammate.
 - Keep PRs focused on the linked issue. If you spot something unrelated, open a separate issue instead of expanding the PR.
+
+### Draft PRs and re-requesting review
+
+1. **Open a draft PR early**, even before the work is finished. This lets maintainers see your direction and unblock you sooner instead of reviewing a finished surprise.
+2. Keep pushing commits to it as you go.
+3. When it's actually done and every checklist item is true, click **"Ready for review"** to take it out of draft.
+4. If a reviewer asks for changes, make them, push, then click **"Re-request review"** next to their name. Pushing silently and waiting doesn't notify them that it's ready again.
+5. Reviews happen within 2–3 days — please don't tag maintainers repeatedly in the meantime.
 
 ## What gets closed as spam
 

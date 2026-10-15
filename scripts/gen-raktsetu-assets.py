@@ -150,24 +150,25 @@ def make_og():
 
     d = ImageDraw.Draw(base)
 
-    # Left: large white teardrop logo with inner red drop + subtle shadow.
+    # Left: LARGE white teardrop logo with inner red drop + subtle shadow.
+    # Enlarged per maintainer review ("need to change the bigger logo image").
     shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     sd = ImageDraw.Draw(shadow)
     teardrop(sd, 168, 321, 112, (0, 0, 0, 90), point_h=90)
     shadow = shadow.filter(ImageFilter.GaussianBlur(10))
     base = Image.alpha_composite(base, shadow)
     d = ImageDraw.Draw(base)
-    teardrop(d, 170, 318, 110, WHITE, point_h=88)
-    teardrop(d, 170, 336, 54, BRAND, point_h=42)
+    teardrop(d, 170, 318, 150, WHITE, point_h=120)
+    teardrop(d, 170, 340, 74, BRAND, point_h=58)
 
     # Wordmark (Montserrat ExtraBold, white).
     f_big = montserrat(88, "ExtraBold")
     f_mid = montserrat(32, "SemiBold")
     f_url = montserrat(24, "SemiBold")
 
-    d.text((330, 200), "RaktSetu", font=f_big, fill=WHITE)
-    d.text((333, 305), "Privacy-first blood donor & recipient", font=f_mid, fill=OFFWHITE)
-    d.text((333, 345), "connect platform.", font=f_mid, fill=OFFWHITE)
+    d.text((400, 200), "RaktSetu", font=f_big, fill=WHITE)
+    d.text((403, 305), "Privacy-first blood donor & recipient", font=f_mid, fill=OFFWHITE)
+    d.text((403, 345), "connect platform.", font=f_mid, fill=OFFWHITE)
 
     # Chip text (solid white, drawn on base AFTER overlay composite so it sits
     # on top of the translucent pills).

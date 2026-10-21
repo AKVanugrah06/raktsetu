@@ -34,7 +34,7 @@ export default function Navbar() {
           aria-controls="primary-nav-links"
           className="rounded-md border border-gray-300 px-3 py-2 text-sm font-medium focus:outline-2 focus:outline-offset-2 focus:outline-brand sm:hidden"
         >
-          {open ? "Close" : "Menu"}
+          {open ? t("nav.close") : t("nav.menu")}
         </button>
 
         <ul

@@ -14,7 +14,9 @@
     "donate": "Become a Donor",
     "donors": "Donors",
     "about": "About",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "menu": "Menu",
+    "close": "Close"
   },
   "home": {
     "heroTitle": "RaktSetu",
@@ -123,6 +125,7 @@
     "availableBadge": "Available",
     "unavailableBadge": "Paused",
     "requestContact": "Request Contact",
+    "requestContactFor": "Request contact with {{name}}",
     "demoModeNotice": "Demo mode — contact requests aren't sent yet."
   },
   "about": {
